@@ -51,6 +51,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Azure.AI.OpenAI": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -59,13 +63,9 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
-            "Serilog": {
+            "PdfPig": {
               "target": "Package",
-              "version": "[4.2.0, )"
-            },
-            "System.Drawing.Common": {
-              "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[0.1.10, )"
             }
           },
           "imports": [
